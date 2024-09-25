@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    }
+
+.outer{
+    
+    background-image: url("sree4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+text-align: center;
+background-color: rgba(47, 45, 45, 0.5);
+padding: 20px;
+border-radius: 10px;
+}
+#heading{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+#home{
+    font-size: 19px;
+    color: white;
+    margin-top: 10px;
+}
+
+#click{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
